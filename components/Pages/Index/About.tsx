@@ -84,11 +84,14 @@ const AboutDesktop = () => {
         </Box>
         </Center>
         <Center>
-        <HStack spacing={4}>
-              <IconButton as="a" href="#" aria-label="WhatsApp" icon={<FaWhatsapp />} colorScheme="orange" />
-              <IconButton as="a" href="#" aria-label="Facebook" icon={<FaFacebook />} colorScheme="orange" />
-              <IconButton as="a" href="#" aria-label="Instagram" icon={<FaInstagram />} colorScheme="orange" />
-            </HStack>
+        <Box textAlign="center" my={10}>
+      <Image 
+        src="/logossocial.png" 
+        alt="Redes sociales" 
+        width={250} 
+        height={70} 
+      />
+    </Box>
             </Center>
       </Box>
     );
